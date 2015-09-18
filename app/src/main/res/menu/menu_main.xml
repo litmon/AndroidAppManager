@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add_tag"
+        android:orderInCategory="100"
+        android:title="タグの追加"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_tag"
+        android:orderInCategory="100"
+        android:title="タグの表示"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/add_tag_mode"
+        android:orderInCategory="100"
+        android:title="タグ付けモード"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/app_delete_mode"
+        android:orderInCategory="100"
+        android:title="アンインストールモード"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/app_delete_all_mode"
+        android:orderInCategory="100"
+        android:title="全アンインストール"
+        app:showAsAction="never" />
+</menu>
